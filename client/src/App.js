@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+// import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/navbar'
 import './App.css';
 
-import Home from './components/home'
-import About from './components/about'
-import Pricing from './components/pricing'
+// import Home from './components/home'
+// import About from './components/about'
+// import Pricing from './components/pricing'
 
 function App() {
   
