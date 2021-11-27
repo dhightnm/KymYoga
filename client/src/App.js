@@ -1,5 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
+import NavBar from './components/navbar'
 import './App.css';
 
 function App() {
@@ -13,8 +15,9 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar/>
       <header className="App-header">
-        <div><span>DOOP!</span></div>
+        <div><span>Hello, world!</span></div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           {console.log(data)}

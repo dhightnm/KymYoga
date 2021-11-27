@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: false}));
 
 
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+  res.json({ message: "Hello from Las Vegas!" });
 });
 
 app.get("/api/net", (req, res) => {
