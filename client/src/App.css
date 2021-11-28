@@ -39,40 +39,45 @@
 
 #iyengar-img {
   height:auto;
-  width: 10%;
+  width: 5%;
 }
 
 .navbar {
-  border-bottom: solid 1px black;
+  /* border-bottom: solid 1px black; */
 }
 .carousel-div {
+  margin-top:1em;
   border-radius: 0em 25em 0em 25em;
+  border: 2px solid rgb(31, 134, 17);
   background: burlywood;
 }
 
 #carousel-main {
   margin: auto;
-  max-height: 30em;
   width: 60%;
+  
   /* border-left: cadetblue;
   border-right: cadetblue;
   border-width: 0 3px 0px 3px;
   border-style: solid; */
 }
 #carousel-item {
-  max-height: 30em;
+  height: 500px;
   width: 900px;
   margin: auto;
-  border-radius: 10em 0em 10em 0em;
+  border-radius: 25em 1em 25em 1em;
   border-left: cadetblue;
   border-right: cadetblue;
   border-width: 0 3px 0px 3px;
-  border-style: solid;
-  
+  border-style: solid; 
+}
+
+.caption {
+  font-size: small;
 }
 
 .cardGroup {
-  /* padding-bottom: 5em; */
+  padding-bottom: 5em;
 }
 .cyclamen {
   width: 30%;
