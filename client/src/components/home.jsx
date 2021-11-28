@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { HomeCards } from './homecards'
 import { Carousel } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
 import image4 from '../b$w.png'
-
 import image3 from '../assets/WhatsApp Image 2021-11-26 at 10.25.54 PM.jpeg'
+import kymBack from '../kym.jpeg'
 
 const Home = () => {
 
@@ -43,7 +44,20 @@ const Home = () => {
         <div>
             <HomeCards/>
         </div>
-        <div className="mat-image"> 
+        <div className="intro-container">
+            <div className="mat-image"> 
+                {/* <div > */}
+                    <Card className="kym-intro">
+                        <Card.Img className="kymage" variant="top" src={kymBack} />
+                        <Card.Body>
+                        <Card.Text>
+                            <h1>Kym Ben-Yaakov</h1>
+                            "You know, I was just like, be awesome and it happens. Kicking Iyengar ass and taking names is my game, yo!"
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+                {/* </div> */}
+            </div>
         </div>
     </>
     )
