@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { HomeCards } from './homecards'
 import { Carousel } from 'react-bootstrap'
 
 import image3 from '../assets/WhatsApp Image 2021-11-26 at 10.25.54 PM.jpeg'
@@ -6,7 +7,7 @@ import image3 from '../assets/WhatsApp Image 2021-11-26 at 10.25.54 PM.jpeg'
 const Home = () => {
 
     return (
-
+    <>
         <div className="carousel-div">
             <Carousel id="carousel-main" fade>
                 <Carousel.Item interval={5000}>
@@ -49,6 +50,10 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
         </div>
+        <div>
+            <HomeCards/>
+        </div>
+    </>
     )
 }
 

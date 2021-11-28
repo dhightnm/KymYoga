@@ -71,6 +71,21 @@
   
 }
 
-.carousel-inner {
- 
+.cardGroup {
+  /* padding-bottom: 5em; */
+}
+.cyclamen {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  margin-top: 3em;
+  background: rgb(119, 181, 184, .6);
+  border-radius: 10em;
+  /* border-width: 2px;
+  border-style: solid */
+}
+
+.cardBody {
+  text-align: center;
+  vertical-align: middle;
 }
