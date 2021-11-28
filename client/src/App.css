@@ -75,10 +75,19 @@
 .caption {
   font-size: small;
 }
-
-.cardGroup {
-  padding-bottom: 5em;
+.yoga-header {
+  width: 30%;
+  padding-top: 2em;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
 }
+.cardGroup {
+  display: flex;
+  padding-bottom: 3em;
+}
+
+
 .cyclamen {
   width: 30%;
   height: auto;
@@ -99,4 +108,13 @@
 .footer-container {
   background: rgb(184, 112, 86);
   text-align: center;
+}
+
+.mat-image {
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk=');
 }

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { HomeCards } from './homecards'
 import { Carousel } from 'react-bootstrap'
 
+import image4 from '../b$w.png'
+
 import image3 from '../assets/WhatsApp Image 2021-11-26 at 10.25.54 PM.jpeg'
 
 const Home = () => {
@@ -22,7 +24,7 @@ const Home = () => {
                     <img
                     id="carousel-item"
                     className="d-block w-100"
-                    src="https://scontent.flas1-1.fna.fbcdn.net/v/t31.18172-8/18489551_884006568403898_3884585394511737975_o.jpg?_nc_cat=102&ccb=1-5&_nc_sid=19026a&_nc_ohc=iBk-xWCvLE8AX_XZdfg&_nc_ht=scontent.flas1-1.fna&oh=733a11114c02ccf6b48bf638ce3ce6ae&oe=61C8E396"
+                    src={image4}
                     alt="Second slide"
                     />
                 </Carousel.Item>
@@ -40,6 +42,8 @@ const Home = () => {
         
         <div>
             <HomeCards/>
+        </div>
+        <div className="mat-image"> 
         </div>
     </>
     )
