@@ -42,26 +42,35 @@
   width: 10%;
 }
 
+.navbar {
+  border-bottom: solid 1px black;
+}
 .carousel-div {
+  border-radius: 0em 25em 0em 25em;
   background: burlywood;
 }
 
 #carousel-main {
-  background-color: aquamarine;
   margin: auto;
   max-height: 30em;
-  width: 80%;
+  width: 60%;
+  /* border-left: cadetblue;
+  border-right: cadetblue;
+  border-width: 0 3px 0px 3px;
+  border-style: solid; */
 }
 #carousel-item {
-  height: 30em;
-  width: 1080px;
+  max-height: 30em;
+  width: 900px;
+  margin: auto;
+  border-radius: 10em 0em 10em 0em;
+  border-left: cadetblue;
+  border-right: cadetblue;
+  border-width: 0 3px 0px 3px;
+  border-style: solid;
+  
 }
 
-
-/* carosel innter{
-  width: 80%;
-    height: 30em;
-    display: flex;
-    justify-content: space-around;
- }
-  */
+.carousel-inner {
+ 
+}
