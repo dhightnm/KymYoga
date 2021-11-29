@@ -3,21 +3,24 @@ import { HomeCards } from './homecards'
 import { Carousel } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
 
-import image4 from '../b$w.png'
-import image3 from '../assets/WhatsApp Image 2021-11-26 at 10.25.54 PM.jpeg'
+import image4 from '../park 5.png'
+import image3 from '../team.png'
+import image2 from '../hanging.png'
 import kymBack from '../kym.jpeg'
 
 const Home = () => {
 
     return (
     <>
-        <div className="carousel-div">
+        <div className="carousel-container">
+            <div className="carousel-image">
+
             <Carousel id="carousel-main" fade>
                 <Carousel.Item interval={5000}>
                     <img
                     id="carousel-item"
                     className="d-block w-100"
-                    src="https://scontent.flas1-1.fna.fbcdn.net/v/t1.6435-9/90510645_10219465591287943_1990438306260713472_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=zRQ086YfNMMAX9YvGtJ&_nc_ht=scontent.flas1-1.fna&oh=800f063b91fe6987a6a15adcf0cb5cc4&oe=61C74CA7"
+                    src={image2}
                     alt="First slide"
                     />
                 </Carousel.Item>
@@ -56,7 +59,7 @@ const Home = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                {/* </div> */}
+                    </div>
             </div>
         </div>
     </>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap'
 import flower from '../cyclamen.png'
 import flower2 from '../cyclamen2.png'
-
+import kymage2 from '../kymage2.jpeg'
 
 export const HomeCards = () => {
     return (
@@ -23,7 +23,8 @@ export const HomeCards = () => {
             </Card>
             <Card className="card mb-4 border-0">
                <div className="cyclamen"><Card.Img  variant="top" src={flower2} /></div>
-               <Card.Body className="cardBody">                <Card.Title>Develop A Consistent Practice</Card.Title>
+               <Card.Body className="cardBody">                
+               <Card.Title>Develop A Consistent Practice</Card.Title>
                 <Card.Text>
                 Each class is an opportunity to grow in your practice. Learn yoga principles you can apply on and off the mat..{' '}
                 </Card.Text>
@@ -31,14 +32,14 @@ export const HomeCards = () => {
             </Card>
             <Card className="card mb-4 border-0">
             <div className="cyclamen"><Card.Img  variant="top" src={flower2} /></div> 
-            <Card.Body className="cardBody">                <Card.Title>No Flexibility Required</Card.Title>
+            <Card.Body className="cardBody">                
+            <Card.Title>No Flexibility Required</Card.Title>
                 <Card.Text>
                 We work with students of all ages and body types. We meet you wherever you are in your practice. 
                 </Card.Text>
                 </Card.Body>
             </Card>
-        </CardGroup>
-            
+        </CardGroup>                
         </div>
     </>
     )

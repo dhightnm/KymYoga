@@ -1,40 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: oldlace;
 }
 
 #iyengar-img {
@@ -46,35 +12,42 @@
   /* border-bottom: solid 1px black; */
 }
 .carousel-div {
+  width: 80%;
   margin-top:1em;
+  margin: auto;
   border-radius: 0em 25em 0em 25em;
-  border: 2px solid rgb(31, 134, 17);
-  background: burlywood;
+  /* border: 2px solid rgb(31, 134, 17) */
+  background: rgba(228, 207, 179, 0.7);
+}
+
+.carousel-image {
+  height: 100%;
+  border-radius: 0 20em 0 20em;
+  background:rgb(229, 219, 180);
+  margin: auto;
 }
 
 #carousel-main {
   margin: auto;
   width: 60%;
   
-  /* border-left: cadetblue;
-  border-right: cadetblue;
-  border-width: 0 3px 0px 3px;
-  border-style: solid; */
 }
 #carousel-item {
-  height: 500px;
+  height: 50%;
   width: 900px;
   margin: auto;
   border-radius: 25em 1em 25em 1em;
   border-left: cadetblue;
   border-right: cadetblue;
   border-width: 0 3px 0px 3px;
-  border-style: solid; 
+  /* border-style: solid; */
 }
+
 
 .caption {
   font-size: small;
 }
+
 .yoga-header {
   width: 30%;
   padding-top: 2em;
@@ -83,17 +56,18 @@
   vertical-align: middle;
 }
 .cardGroup {
+  background-color: oldlace;
   display: flex;
   padding-bottom: 3em;
+  margin-right: 1em;
 }
-
 
 .cyclamen {
   width: 30%;
   height: auto;
   margin: auto;
   margin-top: 3em;
-  background: rgb(119, 181, 184, .6);
+  background: rgb(203, 214, 199, .8);
   border-radius: 10em;
   /* border-width: 2px;
   border-style: solid */
@@ -102,6 +76,11 @@
 .cardBody {
   text-align: center;
   vertical-align: middle;
+  background-color: oldlace;
+}
+
+.card {
+  background: oldlace;
 }
 
 
@@ -120,10 +99,11 @@
   border-radius: 0 50em 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk=');
+  background: rgb(203, 214, 199, .8);
+  /* background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk='); */
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1360px) {
   .mat-image {
     height: 100%;
     width: 100%;
@@ -133,7 +113,8 @@
     border-radius: 0 50em 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk=');
+    background-color: aquamarine;
+    /* background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk='); */
   }
 }
 
@@ -146,7 +127,7 @@
   border-radius: 3em 0 3em 0;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1360px) {
   .kym-intro {
     display: block;
     margin: auto;
