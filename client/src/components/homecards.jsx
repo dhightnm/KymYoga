@@ -1,8 +1,6 @@
 import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap'
-import flower from '../cyclamen.png'
 import flower2 from '../cyclamen2.png'
-import kymage2 from '../kymage2.jpeg'
 
 export const HomeCards = () => {
     return (
