@@ -6,7 +6,7 @@ export const HomeCards = () => {
     return (
         <>
         <div className="yoga-header">
-            <h2>Bring new energy to your body and mind with Iyengar Yoga</h2>
+            <h2>Iyengar Yoga For Stability Strength Balance Freedom</h2>
         </div>
         <div className="cardGroup">
         <CardGroup >
