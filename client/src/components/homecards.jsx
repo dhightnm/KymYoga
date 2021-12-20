@@ -2,10 +2,11 @@ import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap'
 import flower2 from '../cyclamen2.png'
 
-export const HomeCards = () => {
+export const HomeCards = ({count}) => {
     return (
         <>
         <div className="yoga-header">
+            <div>{console.log(count)}</div>
             <h2>Iyengar Yoga For Stability Strength Balance Freedom</h2>
         </div>
         <div className="cardGroup">

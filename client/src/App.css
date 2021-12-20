@@ -89,9 +89,26 @@
   text-align: center;
 }
 .intro-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
   height: 700px;
   width: 100%;
 }
+
+.kym-intro {
+  height:70%;
+  width: 25em;
+  margin-top: 3em;
+  margin-right: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .mat-image {
   height: 100%;
   width: 100%;
@@ -103,26 +120,12 @@
   /* background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk='); */
 }
 
-@media only screen and (max-width: 1360px) {
-  .mat-image {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 0 50em 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: aquamarine;
-    /* background-image: url('https://media.istockphoto.com/photos/top-view-of-yoga-accessories-rolled-exercise-mat-block-and-belt-top-picture-id1135210309?k=20&m=1135210309&s=612x612&w=0&h=Yz37xKO5Fvveo8rWWOZ3eRys0oRk7mevHhCuI8EO3Gk='); */
-  }
-}
 
-.kym-intro {
-  width: 25em;
-  height:70%;
-  margin-top: 3em;
-  margin-right: 30em;
+/* .kym-intro {
+  
+  
+  
+  
   float: right;
   border-radius: 3em 0 3em 0;
 }
@@ -132,7 +135,7 @@
     display: block;
     margin: auto;
   }
-}
+} */
 
 .kymage {
   border-radius: 3em 0 3em 0;

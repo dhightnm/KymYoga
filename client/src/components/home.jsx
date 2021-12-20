@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { HomeCards } from './homecards'
 import { Carousel } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
@@ -10,12 +10,29 @@ import image2 from '../hanging.png'
 import kymBack from '../kym.jpeg'
 
 const Home = () => {
+  let [count, setCount] = useState(0);
+
+  const increment = () => {
+    setCount(count + 1);
+  }
+
+  const decrement = () => {
+    setCount(count - 1);
+  }
 
     const images = [image2, image3, image4];
 
     return (
     <>
         <div className="carousel-container">
+          <button onClick={() => {increment()}}>
+            increment
+          </button>
+          <span>{count}</span>
+
+          <button onClick={() => {decrement()}}>
+            Decrement
+            </button>
           <div className="carousel-image">
 
             <Carousel id="carousel-main" fade>
@@ -32,7 +49,7 @@ const Home = () => {
             </Carousel>
           </div>
           <div>
-            <HomeCards/>
+            <HomeCards Count={count}/>
           </div>
           <div className="intro-container">
             {/* <div className="mat-image">  */}
